@@ -36,6 +36,11 @@ Output is in the tab-separated format:
 
 Be sure to test the installation of the dependencies beforehand.
 
+### Installation
+* I cannot provide an easy way to install StructureDistiller.
+* Personally, I use a docker container to handle the dependencies - feel free to contact me for my dockerfile and help in
+setting everything up.
+
 ### Known Problems & Limitations
 * Use single chain, single domain structures as input. Structures should be small (i.e. up to 200 residues) to avoid 
 problems.

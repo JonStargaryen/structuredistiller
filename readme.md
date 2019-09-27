@@ -6,7 +6,7 @@ improve if that particular contact is known), and outputs the results in a conci
  
 Run it with:
 
-    java -jar distiller.jar [confoldPath] [tmalignPath] [workingDirectory] [threads]
+    java -jar distiller.jar <confoldPath> <tmalignPath> <workingDirectory> <threads> [baselineFrequency - optional, default: 0.3]
 
 * `confoldPath` - path to [CONFOLD](https://github.com/multicom-toolbox/CONFOLD) - see page for DSSP 
 and CNS installation
@@ -14,6 +14,9 @@ and CNS installation
 * `workingDirectory` - all files in PDB format in this directory will be processed, output will be 
 written here
 * `threads` - how many threads to use
+* `baselineFrequency` - optional argument: how many entries of the native contact map should be used to compute the 
+baseline reconstructs - specify this value if you determined that the default value of `0.3` is not the best choice for 
+a particular protein
 
 Output is in the tab-separated format:
 

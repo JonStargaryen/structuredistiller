@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1405369.svg)](https://doi.org/10.5281/zenodo.1405369)
+
 ### StructureDistiller
 StructureDistiller is an algorithm which allows to quantify the structural relevance of individual 
 contacts and residues in protein structures. It takes protein structures (in PDB format) as input, transforms it into a 
@@ -37,7 +39,7 @@ Output is in the tab-separated format:
 Be sure to test the installation of the dependencies beforehand.
 
 ### Installation
-* I cannot provide an easy way to install StructureDistiller.
+* Due to license restrictions of 3rd party software, I cannot provide an easy way to install StructureDistiller.
 * Personally, I use a docker container to handle the dependencies - feel free to contact me for my dockerfile and help in
 setting everything up.
 
@@ -53,3 +55,7 @@ computations are prone to this exception.
 This project just wraps the underlying source code for release. Please find the implementation 
 [here](https://github.com/JonStargaryen/jstructure). The implementation is a proof-of-concept and surely has room to
 improve. Feel free to contact me, if you need any support.
+
+### Literature
+When using the StructureDistiller, please cite:
+- Bittrich, S., Schroeder, M., & Labudde, D. (2019). StructureDistiller: Structural relevance scoring identifies the most informative entries of a contact map. Scientific Reports, 9(1), 1-15. [link](https://www.nature.com/articles/s41598-019-55047-4)

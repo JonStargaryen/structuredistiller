@@ -1,5 +1,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1405369.svg)](https://doi.org/10.5281/zenodo.1405369)
 
+<img src="sd-logo.png" width="300">
+
 ### StructureDistiller
 StructureDistiller is an algorithm which allows to quantify the structural relevance of individual 
 contacts and residues in protein structures. It takes protein structures (in PDB format) as input, transforms it into a 
